@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Homework1_1App: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(FirstScreenViewModel())
+                .environmentObject(SecondScreenViewModel())
+                .environmentObject(ThirdScreenViewModel())
+
         }
     }
+    
 }

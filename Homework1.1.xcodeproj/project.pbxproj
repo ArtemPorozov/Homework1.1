@@ -11,6 +11,18 @@
 		A82F41E1275FC4CB0005038A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F41E0275FC4CB0005038A /* ContentView.swift */; };
 		A82F41E3275FC4CE0005038A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82F41E2275FC4CE0005038A /* Assets.xcassets */; };
 		A82F41E6275FC4CE0005038A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82F41E5275FC4CE0005038A /* Preview Assets.xcassets */; };
+		A82F41ED275FC5540005038A /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F41EC275FC5540005038A /* LazyView.swift */; };
+		A82F41F0275FCA070005038A /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F41EF275FCA070005038A /* FirstScreen.swift */; };
+		A82F41F2275FCA100005038A /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F41F1275FCA100005038A /* SecondScreen.swift */; };
+		A82F41F4275FCA190005038A /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F41F3275FCA190005038A /* ThirdScreen.swift */; };
+		A82F41F6275FEC1F0005038A /* ThirdScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F41F5275FEC1F0005038A /* ThirdScreenViewModel.swift */; };
+		A82F41F8275FF0060005038A /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F41F7275FF0050005038A /* ModalScreen.swift */; };
+		A82F41FF275FFB850005038A /* FifthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F41FE275FFB850005038A /* FifthScreen.swift */; };
+		A82F4201275FFEAA0005038A /* SixthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F4200275FFEAA0005038A /* SixthScreen.swift */; };
+		A82F4203276000000005038A /* SecondScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F4202276000000005038A /* SecondScreenViewModel.swift */; };
+		A82F4207276000C70005038A /* ModalScreenOpenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F4206276000C70005038A /* ModalScreenOpenerView.swift */; };
+		A82F420A2760017A0005038A /* FirstScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82F42092760017A0005038A /* FirstScreenViewModel.swift */; };
+		A8AED70827629FDA00D9C767 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AED70727629FDA00D9C767 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		A82F41E0275FC4CB0005038A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A82F41E2275FC4CE0005038A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A82F41E5275FC4CE0005038A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A82F41EC275FC5540005038A /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		A82F41EF275FCA070005038A /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		A82F41F1275FCA100005038A /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		A82F41F3275FCA190005038A /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+		A82F41F5275FEC1F0005038A /* ThirdScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenViewModel.swift; sourceTree = "<group>"; };
+		A82F41F7275FF0050005038A /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		A82F41FE275FFB850005038A /* FifthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthScreen.swift; sourceTree = "<group>"; };
+		A82F4200275FFEAA0005038A /* SixthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthScreen.swift; sourceTree = "<group>"; };
+		A82F4202276000000005038A /* SecondScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewModel.swift; sourceTree = "<group>"; };
+		A82F4206276000C70005038A /* ModalScreenOpenerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreenOpenerView.swift; sourceTree = "<group>"; };
+		A82F42092760017A0005038A /* FirstScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewModel.swift; sourceTree = "<group>"; };
+		A8AED70727629FDA00D9C767 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +75,15 @@
 		A82F41DD275FC4CB0005038A /* Homework1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				A82F41EE275FC56C0005038A /* ViewModifiers */,
 				A82F41DE275FC4CB0005038A /* Homework1_1App.swift */,
 				A82F41E0275FC4CB0005038A /* ContentView.swift */,
+				A82F41F9275FF3460005038A /* FirstScreen */,
+				A82F41FD275FF5570005038A /* SecondScreen */,
+				A82F41FA275FF3640005038A /* ThirdScreen */,
+				A8D833712763CDE00092904E /* ModalScreen */,
+				A8D833722763CF1A0092904E /* FifthScreen */,
+				A8D833732763CF210092904E /* SixthScreen */,
 				A82F41E2275FC4CE0005038A /* Assets.xcassets */,
 				A82F41E4275FC4CE0005038A /* Preview Content */,
 			);
@@ -65,6 +96,115 @@
 				A82F41E5275FC4CE0005038A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A82F41EE275FC56C0005038A /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A82F41EC275FC5540005038A /* LazyView.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		A82F41F9275FF3460005038A /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A82F4208276001660005038A /* View */,
+				A82F420B2760017F0005038A /* VIewModel */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		A82F41FA275FF3640005038A /* ThirdScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A82F41FB275FF3700005038A /* Views */,
+				A82F41FC275FF3750005038A /* ViewModel */,
+			);
+			path = ThirdScreen;
+			sourceTree = "<group>";
+		};
+		A82F41FB275FF3700005038A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A82F41F3275FCA190005038A /* ThirdScreen.swift */,
+				A82F4206276000C70005038A /* ModalScreenOpenerView.swift */,
+				A8AED70727629FDA00D9C767 /* ActivityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A82F41FC275FF3750005038A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A82F41F5275FEC1F0005038A /* ThirdScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A82F41FD275FF5570005038A /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A82F4205276000250005038A /* View */,
+				A82F42042760001D0005038A /* ViewModel */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		A82F42042760001D0005038A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A82F4202276000000005038A /* SecondScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A82F4205276000250005038A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A82F41F1275FCA100005038A /* SecondScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A82F4208276001660005038A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A82F41EF275FCA070005038A /* FirstScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A82F420B2760017F0005038A /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A82F42092760017A0005038A /* FirstScreenViewModel.swift */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		A8D833712763CDE00092904E /* ModalScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A82F41F7275FF0050005038A /* ModalScreen.swift */,
+			);
+			path = ModalScreen;
+			sourceTree = "<group>";
+		};
+		A8D833722763CF1A0092904E /* FifthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A82F41FE275FFB850005038A /* FifthScreen.swift */,
+			);
+			path = FifthScreen;
+			sourceTree = "<group>";
+		};
+		A8D833732763CF210092904E /* SixthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A82F4200275FFEAA0005038A /* SixthScreen.swift */,
+			);
+			path = SixthScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +277,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82F41F0275FCA070005038A /* FirstScreen.swift in Sources */,
+				A82F41F8275FF0060005038A /* ModalScreen.swift in Sources */,
+				A82F41F4275FCA190005038A /* ThirdScreen.swift in Sources */,
+				A82F4207276000C70005038A /* ModalScreenOpenerView.swift in Sources */,
+				A82F4203276000000005038A /* SecondScreenViewModel.swift in Sources */,
+				A82F41F6275FEC1F0005038A /* ThirdScreenViewModel.swift in Sources */,
+				A82F41ED275FC5540005038A /* LazyView.swift in Sources */,
 				A82F41E1275FC4CB0005038A /* ContentView.swift in Sources */,
+				A82F4201275FFEAA0005038A /* SixthScreen.swift in Sources */,
 				A82F41DF275FC4CB0005038A /* Homework1_1App.swift in Sources */,
+				A82F41FF275FFB850005038A /* FifthScreen.swift in Sources */,
+				A8AED70827629FDA00D9C767 /* ActivityView.swift in Sources */,
+				A82F41F2275FCA100005038A /* SecondScreen.swift in Sources */,
+				A82F420A2760017A0005038A /* FirstScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
