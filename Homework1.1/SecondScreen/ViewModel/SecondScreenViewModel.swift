@@ -11,5 +11,6 @@ final class SecondScreenViewModel: ObservableObject {
     
     var title: String = "Second Screen"
     @Published var isModalScreenShown: Bool = false
-    
+    @Published var isFifthActive: Bool = false
+
 }

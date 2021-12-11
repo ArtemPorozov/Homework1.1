@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SecondScreen: View {
     
-    // TODO: move to ViewModel
     @Binding var isSixthActive: Bool
 
     var body: some View {
@@ -23,14 +22,12 @@ struct SecondScreen: View {
 struct SecondScreenListView: View {
     
     @EnvironmentObject var secondScreenViewModel: SecondScreenViewModel
-    // TODO: move to ViewModel
-    @State private var isFifthActive: Bool = false
+
     @Binding var isSixthActive: Bool
 
-    
     var body: some View {
         List {
-            NavigationLink(destination: LazyView(FifthScreen()), isActive: $isFifthActive, label: {
+            NavigationLink(destination: LazyView(FifthScreen()), isActive: $secondScreenViewModel.isFifthActive, label: {
                 Text("Show Fifth Screen")
             })
             NavigationLink(destination: LazyView(SixthScreen()), isActive: $isSixthActive, label: {
@@ -40,9 +37,3 @@ struct SecondScreenListView: View {
         .navigationBarTitle(Text(secondScreenViewModel.title))
     }
 }
-
-//struct SecondScreen_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SecondScreen()
-//    }
-//}

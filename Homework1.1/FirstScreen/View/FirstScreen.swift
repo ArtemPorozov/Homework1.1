@@ -10,7 +10,7 @@ import SwiftUI
 struct FirstScreen: View {
     
     @EnvironmentObject var firstScreenViewModel: FirstScreenViewModel
-    // TODO: move to ViewModel
+
     @Binding var tabSelection: Int
     @Binding var isSixthActive: Bool
 
@@ -25,9 +25,3 @@ struct FirstScreen: View {
         }
     }
 }
-
-//struct FirstScreen_Previews: PreviewProvider {
-//    static var previews: some View {
-//        FirstScreen(tabSelection: $tabSelection)
-//    }
-//}

@@ -10,5 +10,4 @@ import SwiftUI
 final class FirstScreenViewModel: ObservableObject {
     
     var title: String = "First Screen"
-    
 }

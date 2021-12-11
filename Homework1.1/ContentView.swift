@@ -17,17 +17,17 @@ struct ContentView: View {
         TabView(selection: $tabSelection) {
             FirstScreen(tabSelection: $tabSelection, isSixthActive: $isSixthActive)
                 .tabItem {
-                    Label("First Screen", systemImage: "paperplane")
+                    Label("First Screen", systemImage: "1.square.fill")
                 }
                 .tag(0)
             SecondScreen(isSixthActive: $isSixthActive)
                 .tabItem {
-                    Label("Second Screen", systemImage: "folder")
+                    Label("Second Screen", systemImage: "2.square.fill")
                 }
                 .tag(1)
             ThirdScreen()
                 .tabItem {
-                    Label("Third Screen", systemImage: "person")
+                    Label("Third Screen", systemImage: "3.square.fill")
                 }
                 .tag(2)
         }

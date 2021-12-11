@@ -16,7 +16,6 @@ struct Homework1_1App: App {
                 .environmentObject(FirstScreenViewModel())
                 .environmentObject(SecondScreenViewModel())
                 .environmentObject(ThirdScreenViewModel())
-
         }
     }
     
